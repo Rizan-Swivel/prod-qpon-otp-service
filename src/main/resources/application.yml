@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://api.qpon.lk/eureka
+      defaultZone: https://api.qpon.lk/eureka
 
 server:
   port: ${PORT:8082}
@@ -27,7 +27,7 @@ ribbon:
 
 util:
   utilServiceAppKey: ${APP_KEY:ccus-c2cc3496-c9f8-4068-a83c-82841b44727b}
-  baseUrl: ${UTIL_BASE_URL:http://api.qpon.lk/qpon-util-service}
+  baseUrl: ${UTIL_BASE_URL:https://api.qpon.lk/qpon-util-service}
   uri:
     sendMail: /api/v1/email/send
     sendSms: /api/v1/sms/send
