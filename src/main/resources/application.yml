@@ -8,7 +8,7 @@ spring:
   redis:
     port: ${REDIS_PORT:6379}
     password: ${REDIS_PASSWORD:}
-    host: ${REDIS_HOST:qpon-prod-redis-ec.poc2a8.0001.aps1.cache.amazonaws.com}
+    host: ${REDIS_HOST:qpon-prod-redis.poc2a8.0001.aps1.cache.amazonaws.com}
     timeToLive: 60
 
 ## Eureka
