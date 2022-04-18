@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: otp-service
+
+logging:
+  level:
+    com.swivel.otp: DEBUG
+  file:
+    path: /home/ubuntu/tmp/logs

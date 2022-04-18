@@ -1,0 +1,18 @@
+package com.swivel.qpon.otp;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class OtpServiceApplicationTests {
+
+    @Test
+    void main() {
+        OtpServiceApplication.main(new String[]{});
+    }
+
+    @Test
+    void contextLoads() {
+    }
+
+}
